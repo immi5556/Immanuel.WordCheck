@@ -1,0 +1,53 @@
+﻿{
+  "TextRank": [
+    {
+      "WordPercentage": 0,
+      "ProfaneRate": "All Good"
+    },
+    {
+      "WordPercentage": 3,
+      "ProfaneRate": "Not Good"
+    },
+    {
+      "WordPercentage": 10,
+      "ProfaneRate": "Bad"
+    },
+    {
+      "WordPercentage": 20,
+      "ProfaneRate": "Atrocious"
+    },
+    {
+      "WordPercentage": 30,
+      "ProfaneRate": "Poor"
+    },
+    {
+      "WordPercentage": 40,
+      "ProfaneRate": "Rough"
+    },
+    {
+      "WordPercentage": 50,
+      "ProfaneRate": "Dreadful"
+    },
+    {
+      "WordPercentage": 60,
+      "ProfaneRate": "UnAcceptable"
+    },
+    {
+      "WordPercentage": 70,
+      "ProfaneRate": "Very Bad"
+    },
+    {
+      "WordPercentage": 80,
+      "ProfaneRate": "Vulgar"
+    },
+
+    {
+      "WordPercentage": 90,
+      "ProfaneRate": "Notorios"
+    },
+    {
+      "WordPercentage": 100,
+      "ProfaneRate": "Crime"
+    }
+  ]
+}
