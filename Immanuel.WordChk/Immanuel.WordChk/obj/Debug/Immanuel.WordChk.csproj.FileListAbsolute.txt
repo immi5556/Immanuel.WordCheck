@@ -68,9 +68,11 @@ C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Im
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.WindowsServer.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.Web.xml
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csprojResolveAssemblyReference.cache
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.pdb
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Cors.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.xml
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csprojAssemblyReference.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csproj.CoreCompileInputs.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csproj.CopyComplete

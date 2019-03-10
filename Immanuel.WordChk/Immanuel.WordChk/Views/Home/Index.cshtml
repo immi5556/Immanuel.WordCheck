@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Profane & Vulgar Words Validator</title>
+    <title>Free online - Profane & Vulgar Words Validator</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <meta name="MobileOptimized" content="width" />
@@ -15,9 +15,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <META NAME="ROBOTS" CONTENT="All, index, follow">
     <meta name="revisit-after" content="7 days">
-    <link rel="shortcut icon" href="http://vulgarity-validator.immanuel.co/favicon.ico">
+    <link rel="shortcut icon" href="https://vulgarity-validator.immanuel.co/favicon.ico">
     <META NAME="author" CONTENT="Immanuel">
-    <meta name="keywords" content="Profane Word Check, Vulgar word check" />
+    <meta name="keywords" content="Profane Words Check, Vulgar words check, Word Safety, Free Profane Words Check http Api, free word safety api" />
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <style>
         .rate-result {
@@ -85,8 +85,8 @@
         <br /><br />
         <div>
             <h2>Developer Api</h2>
-            <span>GET: http://vulgarity-validator.immanuel.co/Profane/Check/{text to be validated} </span><br />
-            <span>POST: http://vulgarity-validator.immanuel.co/Profane/Check, with FormData - text = {to be validated} </span>
+            <span>GET: https://vulgarity-validator.immanuel.co/Profane/Check/{text to be validated} </span><br />
+            <span>POST: https://vulgarity-validator.immanuel.co/Profane/Check, with FormData - text = {to be validated} </span>
         </div>
     </div>
     <script>
@@ -143,7 +143,7 @@
                     document.getElementById("sr").appendChild(node); 
                 }
             };
-            request.open('POST', 'http://vulgarity-validator.immanuel.co/Profane/Check');
+            request.open('POST', 'https://vulgarity-validator.immanuel.co/Profane/Check');
             request.responseType = 'json';
             request.send(formData);
         }

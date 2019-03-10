@@ -1,0 +1,14 @@
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\bin\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.deps.json
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\bin\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.runtimeconfig.json
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\bin\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.runtimeconfig.dev.json
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\bin\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.dll
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\bin\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.pdb
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.csprojAssemblyReference.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.csproj.CoreCompileInputs.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.RazorAssemblyInfo.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.RazorAssemblyInfo.cs
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.AssemblyInfoInputs.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.AssemblyInfo.cs
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.RazorTargetAssemblyInfo.cache
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.dll
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.Core.WordCheck\obj\Debug\netcoreapp2.2\Immanuel.Core.WordCheck.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immanuel.WordChk", "Immanuel.WordChk\Immanuel.WordChk.csproj", "{2226C753-2754-47DF-9816-39309FCDA7D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immanuel.Core.WordCheck", "Immanuel.Core.WordCheck\Immanuel.Core.WordCheck.csproj", "{F15D95D0-9601-47BF-ABEF-E6AB47904112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{2226C753-2754-47DF-9816-39309FCDA7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2226C753-2754-47DF-9816-39309FCDA7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2226C753-2754-47DF-9816-39309FCDA7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15D95D0-9601-47BF-ABEF-E6AB47904112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15D95D0-9601-47BF-ABEF-E6AB47904112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15D95D0-9601-47BF-ABEF-E6AB47904112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15D95D0-9601-47BF-ABEF-E6AB47904112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E7FCB52-0A63-424A-91E4-E8609F27D07E}
 	EndGlobalSection
 EndGlobal
