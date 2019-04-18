@@ -24,7 +24,22 @@ namespace Immanuel.Core.WordCheck
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                 .AddJsonOptions(opts =>
+                 {
+                     opts.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();
+                 })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddCors(options => options.AddPolicy("CorsPolicy",
+               builder =>
+               {
+                   builder.AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowAnyOrigin();
+               }));
+
+            services.AddSingleton<App_Start.WordContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,7 +50,17 @@ namespace Immanuel.Core.WordCheck
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            App_Start.WordContext.Start(System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "Data", "en-EN"));
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            app.UseCors("CorsPolicy");
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                   template: "{controller=Home}/{action=Index}/{id?}");
+            });
         }
     }
 }

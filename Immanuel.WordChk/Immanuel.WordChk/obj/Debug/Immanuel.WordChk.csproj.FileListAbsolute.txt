@@ -40,7 +40,9 @@ C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Im
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.Web.Infrastructure.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Newtonsoft.Json.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Net.Http.Formatting.dll
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Cors.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Helpers.dll
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.WebHost.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Mvc.dll
@@ -51,6 +53,7 @@ C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Im
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.WebPages.Razor.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\WebGrease.dll
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Helpers.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Mvc.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Optimization.xml
@@ -68,11 +71,8 @@ C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Im
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.WindowsServer.xml
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\Microsoft.AI.Web.xml
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.dll
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.pdb
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Cors.dll
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.dll
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\bin\System.Web.Http.Cors.xml
-C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csprojAssemblyReference.cache
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csproj.CoreCompileInputs.cache
 C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csproj.CopyComplete
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.dll
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.pdb
+C:\Immi\Personal\MyProjects\profane_check\Immanuel.WordCheck\Immanuel.WordChk\Immanuel.WordChk\obj\Debug\Immanuel.WordChk.csprojAssemblyReference.cache

@@ -19,6 +19,7 @@ namespace Immanuel.Core.WordCheck
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+            .UseUrls("http://localhost:51295")
                 .UseStartup<Startup>();
     }
 }

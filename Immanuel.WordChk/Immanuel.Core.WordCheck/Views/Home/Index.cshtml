@@ -1,0 +1,159 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Free online - Profane & Vulgar Words Validator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="description" content="Free online API for Profane & Vulgar words validate" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <META NAME="ROBOTS" CONTENT="All, index, follow">
+    <meta name="revisit-after" content="7 days">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <META NAME="author" CONTENT="Immanuel">
+    <meta name="keywords" content="Profane Words Check, Vulgar words check, Word Safety, Free Profane Words Check http Api, free word safety api" />
+    <script src="~/js/jquery-1.10.2.min.js"></script>
+    <style>
+        .rate-result {
+            background-color: cadetblue;
+            border: 1px red dashed;
+            border-radius: 8px;
+        }
+
+        table tr#hr td {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="width:100%;height:100%;text-align:center;background-color:gray;margin:0;padding-top:30px;font-family: 'Bradley Hand ITC';color:floralwhite;">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111329650-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111329650-1');
+    </script>
+
+    <div>
+        <div>
+            <h2>Vulgarity Validator</h2>
+            <br />
+        </div>
+        <div>
+            <textarea id="inpTxt" style="width:55%;border-radius:5px;margin-top:20px;" rows="8" placeholder="&nbsp;&nbsp;Enter Text to be validated"></textarea>
+            <br />
+            (<span>1000</span> chars remaining)
+        </div>
+        <div style="margin-top:10px;font-weight:bold;">
+            Supports English (en-EN), Tamil (ta-TA) , Telugu (te-TE), Hindi (hi-HI)
+            <br />(Soon other languages will be included)
+        </div>
+        <br />
+        <div>
+            <button style="height:30px;width:60px;border-radius:5px;" id="btnChk">Check</button>
+        </div>
+        <br />
+        <div style="text-align:center;align-content:center;">
+            <table id="restresult" style="margin-left:auto;margin-right:auto;">
+                <tr id="hr"></tr>
+                <tr id="or">
+                    @*<td>
+                            Profane %
+                        </td>
+                        <td>
+                            50%
+                        </td>*@
+                </tr>
+                <tr id="sr">
+                    @*<td>
+                            Status
+                        </td>
+                        <td>
+                            Wewe
+                        </td>*@
+                </tr>
+            </table>
+        </div>
+        <br /><br />
+        <div>
+            <h2>Developer Api</h2>
+            <span>GET: https://vulgarity-validator.immanuel.co/Profane/Check/{text to be validated} </span><br />
+            <span>POST: https://vulgarity-validator.immanuel.co/Profane/Check, with FormData - text = {to be validated} </span>
+        </div>
+    </div>
+    <script>
+        document.getElementById('btnChk').onclick = function () {
+            document.getElementById("restresult").classList.remove("rate-result");
+            var hll = document.getElementById("hr");
+            while (hll.firstChild) {
+                hll.removeChild(hll.firstChild);
+            }
+
+            var oll = document.getElementById("or");
+            while (oll.firstChild) {
+                oll.removeChild(oll.firstChild);
+            }
+            var sll = document.getElementById("sr");
+            while (sll.firstChild) {
+                sll.removeChild(sll.firstChild);
+            }
+            validate();
+        };
+
+        var validate = function () {
+            var formData = new FormData();
+            formData.append('text', document.getElementById('inpTxt').value);
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    if (!this.response)
+                        return;
+                    console.log(this.response);
+                    document.getElementById("restresult").classList.add("rate-result");
+                    var node = document.createElement("td");
+                    node.colSpan = 2;
+                    var textnode = document.createTextNode("Vulgarity Rating");
+                    node.appendChild(textnode);
+                    document.getElementById("hr").appendChild(node);
+
+                    node = document.createElement("td");
+                    textnode = document.createTextNode("Profane Rate");
+                    node.appendChild(textnode);
+                    document.getElementById("or").appendChild(node);
+                    node = document.createElement("td");
+                    textnode = document.createTextNode(this.response.WordPercentage + '%');
+                    node.appendChild(textnode);
+                    document.getElementById("or").appendChild(node);
+
+                    node = document.createElement("td");
+                    textnode = document.createTextNode("Status");
+                    node.appendChild(textnode);
+                    document.getElementById("sr").appendChild(node);
+                    node = document.createElement("td");
+                    textnode = document.createTextNode(this.response.ProfaneRate);
+                    node.appendChild(textnode);
+                    document.getElementById("sr").appendChild(node);
+                }
+            };
+            //request.open('POST', 'https://vulgarity-validator.immanuel.co/Profane/Check');
+            request.open('POST', '/Profane/Check');
+            request.responseType = 'json';
+            request.send(formData);
+        }
+
+        document.getElementById('inpTxt').onkeyup = function (evt) {
+
+
+        }
+    </script>
+</body>
+</html>
